@@ -37,9 +37,15 @@ main > section {
     background-color: grey;
 }
 
-.popular {
+/* .popular {
     display: flex;
-    flex-direction: row;
     flex-flow: wrap;
 
+} */
+
+.popular {
+    display: flex;
+    flex-flow: wrap;
+   
 }
+
