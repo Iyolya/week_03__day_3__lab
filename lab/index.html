@@ -29,10 +29,9 @@
    
     <section>
         <form action="" method="get">
-            <label for="email">Where do you want to go?</label><br>
-            <input type="email" id="email" pattern=".+@globex.com" size="30" required placeholder="Where to go?" >
-            <input type="email" id="email" pattern=".+@globex.com" size="30" required placeholder="dd / mm / yyyy" >
-            <!-- <input type="email" id="email" pattern=".+@globex.com" size="30" required placeholder="Travel type" > -->
+            <label for="where-to-go">Where do you want to go?</label><br>
+            <input type="text" id="where-to-go" size="50" required placeholder="Where to go?" >
+            <input type="text" id="where-to-go" size="50" required placeholder="dd / mm / yyyy" >
             <input type="text" list="traveltype" id="test" name="type" placeholder="Travel type">
             <datalist id="traveltype">
             <option value="Car"></option>
@@ -42,11 +41,14 @@
             <input type="Submit" value="Search">
     </section>
     </main>
-    <section class="popular">
-        <h2>Popular destinations</h2>
-        <h6>Some of the most popular countries to visit!</h6>
+    <br>
+    <br>
+    <section>
+        <h2 class="headings">Popular destinations</h2>
+        <h6 class="headings">Some of the most popular countries to visit!</h6>
         <nav>
-            <ul>
+            <ul class="images">
+                
                 <li><a href="Italy"><img src="https://www.state.gov/wp-content/uploads/2018/11/Italy-2109x1406.jpg" width="300"></a></li>
                 <li><a href="Brazil"><img src="https://www.pandotrip.com/wp-content/uploads/2013/07/Untitled-62-980x613.jpg" width="300"></a></li>
                 <li><a href="America"><img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6e/df/1b.jpg" width="300"></a></li>
@@ -56,11 +58,13 @@
             </ul>
         </nav>
     </section>
-    <section class="popular">
-        <h2>Popular places</h2>
-        <h6>Some of the most popular countries to visit!</h6>
+    <br>
+    <br>
+    <section>
+        <h2 class="headings">Popular places</h2>
+        <h6 class="headings">Some of the most popular countries to visit!</h6>
         <nav>
-            <ul class="popular">
+            <ul class="images">
                 <li><a href="Italy"><img src="https://www.state.gov/wp-content/uploads/2018/11/Italy-2109x1406.jpg" width="300"></a></li>
                 <li><a href="Brazil"><img src="https://www.pandotrip.com/wp-content/uploads/2013/07/Untitled-62-980x613.jpg" width="300"></a></li>
                 <li><a href="America"><img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6e/df/1b.jpg" width="300"></a></li>
